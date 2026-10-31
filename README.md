@@ -1,8 +1,8 @@
 # Student Management System (SMS)
 
-A complete, production-ready full-stack Student Management System crafted to mirror the exact UI/UX blueprint of `Student Management system.png`.
+A complete, production-ready full-stack Student Management System crafted to mirror the exact UI/UX blueprint of `Student Management system`.
 
-![SMS Dashboard](Student Management system.png)
+![SMS Dashboard](Student%20Management%20system.png)
 
 ---
 
