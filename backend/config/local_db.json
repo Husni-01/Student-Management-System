@@ -1,0 +1,278 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Abhishek Verma",
+      "email": "abhishek.verma@university.edu",
+      "roll_no": "21BCSE104",
+      "program": "B.Tech CSE",
+      "current_year": "1st Year",
+      "semester": "7th Semester",
+      "cgpa": 8.83,
+      "overall_rank": 12,
+      "total_students": 120,
+      "overall_attendance": 87.2,
+      "avatar_url": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "phone": "+91 98765 43210",
+      "created_at": "2024-01-10T09:00:00.000Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "course_code": "CS301",
+      "course_name": "Data Structures",
+      "credits": 4,
+      "instructor": "Dr. Sarah Jenkins",
+      "semester": "5th Semester"
+    },
+    {
+      "id": 2,
+      "course_code": "CS302",
+      "course_name": "Database Management Systems",
+      "credits": 4,
+      "instructor": "Prof. Robert Miller",
+      "semester": "5th Semester"
+    },
+    {
+      "id": 3,
+      "course_code": "CS303",
+      "course_name": "Operating Systems",
+      "credits": 4,
+      "instructor": "Dr. Alan Vance",
+      "semester": "5th Semester"
+    },
+    {
+      "id": 4,
+      "course_code": "CS304",
+      "course_name": "Computer Networks",
+      "credits": 4,
+      "instructor": "Prof. Emily Watson",
+      "semester": "5th Semester"
+    },
+    {
+      "id": 5,
+      "course_code": "CS305",
+      "course_name": "Software Engineering",
+      "credits": 4,
+      "instructor": "Dr. Marcus Vance",
+      "semester": "5th Semester"
+    },
+    {
+      "id": 6,
+      "course_code": "CS306",
+      "course_name": "Cloud Computing",
+      "credits": 3,
+      "instructor": "Prof. Neil Sharma",
+      "semester": "5th Semester"
+    },
+    {
+      "id": 7,
+      "course_code": "CS310",
+      "course_name": "DevOps Engineering",
+      "credits": 3,
+      "instructor": "Dr. Katherine Lee",
+      "semester": "5th Semester"
+    },
+    {
+      "id": 8,
+      "course_code": "CS504",
+      "course_name": "Cyber Security",
+      "credits": 4,
+      "instructor": "Dr.Bruce Banner",
+      "semester": "5th Semester"
+    }
+  ],
+  "student_courses": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "course_id": 1,
+      "enrollment_status": "Enrolled"
+    },
+    {
+      "id": 2,
+      "student_id": 1,
+      "course_id": 2,
+      "enrollment_status": "Enrolled"
+    },
+    {
+      "id": 3,
+      "student_id": 1,
+      "course_id": 3,
+      "enrollment_status": "Enrolled"
+    },
+    {
+      "id": 4,
+      "student_id": 1,
+      "course_id": 4,
+      "enrollment_status": "Enrolled"
+    },
+    {
+      "id": 5,
+      "student_id": 1,
+      "course_id": 5,
+      "enrollment_status": "Enrolled"
+    },
+    {
+      "id": 6,
+      "student_id": 1,
+      "course_id": 6,
+      "enrollment_status": "Enrolled"
+    },
+    {
+      "id": 7,
+      "student_id": 1,
+      "course_id": 7,
+      "enrollment_status": "Enrolled"
+    },
+    {
+      "id": 8,
+      "student_id": 1,
+      "course_id": 8,
+      "enrollment_status": "Enrolled"
+    }
+  ],
+  "results": [
+    {
+      "id": 6,
+      "student_id": 1,
+      "course_id": 1,
+      "subject": "Machine Learning",
+      "exam_type": "Mid Sem",
+      "grade": "A+",
+      "score": 98,
+      "max_score": 100,
+      "exam_date": "2024-05-18"
+    },
+    {
+      "id": 1,
+      "student_id": 1,
+      "course_id": 1,
+      "subject": "Data Structures",
+      "exam_type": "Mid Sem",
+      "grade": "A",
+      "score": 86,
+      "max_score": 100,
+      "exam_date": "2024-05-12"
+    },
+    {
+      "id": 2,
+      "student_id": 1,
+      "course_id": 2,
+      "subject": "Database Management Systems",
+      "exam_type": "Mid Sem",
+      "grade": "A+",
+      "score": 91,
+      "max_score": 100,
+      "exam_date": "2024-05-10"
+    },
+    {
+      "id": 3,
+      "student_id": 1,
+      "course_id": 3,
+      "subject": "Operating Systems",
+      "exam_type": "Mid Sem",
+      "grade": "B+",
+      "score": 78,
+      "max_score": 100,
+      "exam_date": "2024-05-08"
+    },
+    {
+      "id": 4,
+      "student_id": 1,
+      "course_id": 4,
+      "subject": "Computer Networks",
+      "exam_type": "Mid Sem",
+      "grade": "A",
+      "score": 85,
+      "max_score": 100,
+      "exam_date": "2024-05-06"
+    },
+    {
+      "id": 5,
+      "student_id": 1,
+      "course_id": 5,
+      "subject": "Software Engineering",
+      "exam_type": "Mid Sem",
+      "grade": "A+",
+      "score": 92,
+      "max_score": 100,
+      "exam_date": "2024-05-04"
+    }
+  ],
+  "notices": [
+    {
+      "id": 1,
+      "title": "End Semester Exam Schedule",
+      "description": "The end semester exams will begin from 25th May 2024.",
+      "publish_date": "2024-05-15",
+      "category": "Exam"
+    },
+    {
+      "id": 2,
+      "title": "Result Declaration Notice",
+      "description": "Results for Mid Semester Exams has been declared.",
+      "publish_date": "2024-05-12",
+      "category": "Academic"
+    },
+    {
+      "id": 3,
+      "title": "Project Submission Deadline",
+      "description": "Final year project submission is due on 30th May 2024.",
+      "publish_date": "2024-05-10",
+      "category": "Deadline"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "course_id": 1,
+      "classes_held": 40,
+      "classes_attended": 36,
+      "percentage": 90
+    },
+    {
+      "id": 2,
+      "student_id": 1,
+      "course_id": 2,
+      "classes_held": 42,
+      "classes_attended": 38,
+      "percentage": 90.47
+    },
+    {
+      "id": 3,
+      "student_id": 1,
+      "course_id": 3,
+      "classes_held": 38,
+      "classes_attended": 31,
+      "percentage": 81.57
+    },
+    {
+      "id": 4,
+      "student_id": 1,
+      "course_id": 4,
+      "classes_held": 39,
+      "classes_attended": 34,
+      "percentage": 87.18
+    },
+    {
+      "id": 5,
+      "student_id": 1,
+      "course_id": 5,
+      "classes_held": 40,
+      "classes_attended": 35,
+      "percentage": 87.5
+    },
+    {
+      "id": 6,
+      "student_id": 1,
+      "course_id": 6,
+      "classes_held": 35,
+      "classes_attended": 30,
+      "percentage": 85.71
+    }
+  ],
+  "feedback": []
+}
