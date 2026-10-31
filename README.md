@@ -48,7 +48,7 @@ A complete, production-ready full-stack Student Result Management System crafted
     - Custom SVG donut chart displaying `84% Overall Performance`
     - Legend breakdown: *Excellent (60%), Good (20%), Average (12%), Needs Improvement (8%)*
   - **Footer:**
-    - `© 2024 Student Result Management System. All rights reserved.`
+    - `© 2024 Student Management System. All rights reserved.`
     - `Made with ❤️ for Students`
 
 ---

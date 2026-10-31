@@ -44,9 +44,8 @@ export default function Sidebar({ isOpen, onClose }) {
 
       {/* Sidebar Container */}
       <aside
-        className={`fixed top-0 bottom-0 left-0 z-50 w-64 bg-white border-r border-slate-200/80 flex flex-col transition-transform duration-300 ease-in-out lg:translate-x-0 ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}
+        className={`fixed top-0 bottom-0 left-0 z-50 w-64 bg-white border-r border-slate-200/80 flex flex-col transition-transform duration-300 ease-in-out lg:translate-x-0 ${isOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}
       >
         {/* Top Branding Section (Exact Match to Blueprint) */}
         <div className="p-4">
@@ -68,9 +67,9 @@ export default function Sidebar({ isOpen, onClose }) {
               <GraduationCap size={28} className="text-white" />
             </div>
 
-            <h1 className="text-xl font-extrabold tracking-wider text-white">SRMS</h1>
+            <h1 className="text-xl font-extrabold tracking-wider text-white">SMS</h1>
             <p className="text-[11px] text-blue-100 font-medium tracking-tight mt-0.5">
-              Student Result<br />Management System
+              Student<br />Management System
             </p>
           </div>
         </div>
@@ -87,10 +86,9 @@ export default function Sidebar({ isOpen, onClose }) {
                   if (window.innerWidth < 1024) onClose();
                 }}
                 className={({ isActive }) =>
-                  `flex items-center gap-3.5 px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 ${
-                    isActive
-                      ? 'bg-[#1D61F2] text-white shadow-sm font-semibold'
-                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100/80'
+                  `flex items-center gap-3.5 px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 ${isActive
+                    ? 'bg-[#1D61F2] text-white shadow-sm font-semibold'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100/80'
                   }`
                 }
               >
