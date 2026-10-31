@@ -1,8 +1,8 @@
-# Student Result Management System (SRMS)
+# Student Management System (SMS)
 
-A complete, production-ready full-stack Student Result Management System crafted to mirror the exact UI/UX blueprint of `Student Management systemjpg.jpg`.
+A complete, production-ready full-stack Student Management System crafted to mirror the exact UI/UX blueprint of `Student Management system.png`.
 
-![SRMS Dashboard](frontend/public/blueprint-preview.jpg)
+![SMS Dashboard](Student Management system.png)
 
 ---
 
